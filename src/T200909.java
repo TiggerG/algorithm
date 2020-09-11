@@ -72,7 +72,7 @@ public class T200909 {
     }
     @Test
    public void test2(){
-        String[] strings=new String[]{"length","leng","len"};
+        String[] strings=new String[]{"length","leng","lensss"};
         System.out.println(t2(strings));
     }
 }
