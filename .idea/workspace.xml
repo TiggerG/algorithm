@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f447b160-1393-4e58-bbb4-7d858e17f84d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/suanfa/T200909.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/suanfa/T200909.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T200909.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T200909.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <recent name="strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.T200909.test2">
+  <component name="RunManager" selected="JUnit.T200909.test4">
     <configuration name="Context" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.Context" />
       <module name="suanfa" />
@@ -55,13 +56,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sulation" />
-      <module name="suanfa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,12 +77,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T200909.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="suanfa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="T200909" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T200909.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="suanfa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="T200909" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.T200909.test4" />
+        <item itemvalue="JUnit.T200909.test3" />
         <item itemvalue="JUnit.T200909.test2" />
         <item itemvalue="Application.T200909" />
         <item itemvalue="Application.Context" />
-        <item itemvalue="Application.Sulation" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +126,15 @@
       <workItem from="1597971807138" duration="231000" />
       <workItem from="1599045235402" duration="700000" />
       <workItem from="1599649511971" duration="2416000" />
-      <workItem from="1599795869401" duration="129000" />
+      <workItem from="1599795869401" duration="7237000" />
+      <workItem from="1599876235951" duration="3587000" />
+      <workItem from="1600045564380" duration="3657000" />
+      <workItem from="1600131493071" duration="1042000" />
+      <workItem from="1600163088857" duration="1744000" />
+      <workItem from="1600218113990" duration="2000000" />
+      <workItem from="1600304615812" duration="308000" />
+      <workItem from="1600310032711" duration="4590000" />
+      <workItem from="1600390683121" duration="940000" />
     </task>
     <servers />
   </component>
@@ -127,49 +150,68 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597806588468" />
-    <state width="1492" height="177" key="GridCell.Tab.0.bottom" timestamp="1599651930444">
+    <state x="558" y="34" key="#xdebugger.evaluate" timestamp="1600163628195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599651930444" />
+    <state x="558" y="34" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600163628195" />
+    <state width="759" height="180" key="GridCell.Tab.0.bottom" timestamp="1600172467539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="759" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467539" />
     <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597751569718" />
-    <state width="1492" height="177" key="GridCell.Tab.0.center" timestamp="1599651930441">
+    <state width="759" height="180" key="GridCell.Tab.0.center" timestamp="1600172467539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="177" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599651930441" />
+    <state width="759" height="180" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467539" />
     <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597751569718" />
-    <state width="1492" height="177" key="GridCell.Tab.0.left" timestamp="1599651930441">
+    <state width="759" height="180" key="GridCell.Tab.0.left" timestamp="1600172467539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="177" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599651930441" />
+    <state width="759" height="180" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467539" />
     <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597751569718" />
-    <state width="1492" height="177" key="GridCell.Tab.0.right" timestamp="1599651930441">
+    <state width="759" height="180" key="GridCell.Tab.0.right" timestamp="1600172467539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="177" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599651930441" />
+    <state width="759" height="180" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467539" />
     <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597751569718" />
-    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1597143611112">
+    <state width="759" height="180" key="GridCell.Tab.1.bottom" timestamp="1600172467540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597143611112" />
-    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1597143611111">
+    <state width="759" height="180" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467540" />
+    <state width="759" height="180" key="GridCell.Tab.1.center" timestamp="1600172467540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597143611111" />
-    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1597143611111">
+    <state width="759" height="180" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467540" />
+    <state width="759" height="180" key="GridCell.Tab.1.left" timestamp="1600172467540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597143611111" />
-    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1597143611112">
+    <state width="759" height="180" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467540" />
+    <state width="759" height="180" key="GridCell.Tab.1.right" timestamp="1600172467540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597143611112" />
+    <state width="759" height="180" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600172467540" />
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599651789275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599651789275" />
+    <state x="530" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599802444087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599802444087" />
     <state x="470" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1597135783250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597135783250" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/T200909.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
