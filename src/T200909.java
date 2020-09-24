@@ -3,6 +3,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @author ：liubaosong
@@ -181,7 +182,6 @@ public class T200909 {
             }
             return list;
         }
-
 
 
 
