@@ -4,6 +4,7 @@ package tree;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author ：liubaosong
@@ -14,15 +15,12 @@ public class Bfs {
     private BianryTree bianryTree;
 
     void setBianryTree(){
-        TreeNode root = new TreeNode(1);
-        TreeNode l1 = new TreeNode(2);
+        TreeNode root = new TreeNode(2);
+        TreeNode l1 = new TreeNode(1);
         TreeNode r1 = new TreeNode(3);
         root.setlNode(l1);
         root.setrNode(r1);
-        TreeNode l1l2 = new TreeNode(4);
-        TreeNode l1r2 = new TreeNode(5);
-        l1.setlNode(l1l2);
-        l1.setrNode(l1r2);
+
         bianryTree = new BianryTree();
         bianryTree.setRoot(root);
     }
@@ -51,10 +49,53 @@ public class Bfs {
      return list;
     }
 
+    List<TreeNode> dfs(){
+        //定义返回的TreeNode 集合
+        List<TreeNode> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(bianryTree.root);
+        while (!stack.empty()){
+            TreeNode node = stack.pop();
+            list.add(node);
+            if (node.rNode!=null){
+                stack.push(node.rNode);
+            }
+            if (node.lNode!=null){
+                stack.push(node.lNode);
+            }
+        }
+        return list;
+    }
+
+    boolean ValidBst(){
+        return helper(bianryTree.root,null,null);
+    }
+    boolean helper(TreeNode node,Integer lower,Integer upper){
+        if (node == null){
+            return true;
+        }
+        Integer val = node.value;
+        if (lower!=null&&val<=lower){
+            return false;
+        }
+        if (upper!=null&&val>=upper){
+            return false;
+        }
+        if (!helper(node.lNode,lower,val)){
+            return false;
+        }
+        if (!helper(node.rNode,val,upper)){
+            return false;
+        }
+        return true;
+
+    }
+
     public static void main(String[] args) {
         Bfs bfs = new Bfs();
         bfs.setBianryTree();
-       List list =  bfs.bfs();
+        boolean b = bfs.ValidBst();
+        System.out.println(b);
     }
 
 }
